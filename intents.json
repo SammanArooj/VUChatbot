@@ -1,0 +1,131 @@
+{"intents": [
+    {"tag": "greeting",
+     "patterns": ["Hi", "Hey", "Is anyone there?", "Hello", "Hay"],
+     "responses": ["Hello", "Hi", "Hi there"]
+    },
+    {"tag": "goodbye",
+     "patterns": ["Bye", "See you later", "Goodbye"],
+     "responses": ["See you later", "Have a nice day", "Bye! Come back again"]
+    },
+    {"tag": "thanks",
+     "patterns": ["Thanks", "Thank you", "That's helpful", "Thanks for the help"],
+     "responses": ["Happy to help!", "Any time!", "My pleasure", "You're most welcome!"]
+    },
+    {"tag": "about",
+     "patterns": ["Who are you?", "What are you?", "Who you are?" ],
+     "responses": ["I'm an AI language model developed by VUSWH team. I'm designed to assist you with your queries related to the university's different departments."]
+    },
+    {"tag": "name",
+    "patterns": ["what is your name", "what should I call you", "whats your name?"],
+    "responses": ["I'm an AI language model developed by VUSWH team. I'm designed to assist you with your queries related to the university's different departments."]
+    },
+    {"tag": "help",
+    "patterns": ["Could you help me?", "give me a hand please", "Can you help?", "What can you do for me?", "I need a support", "I need a help", "support me please"],
+    "responses": ["Tell me how can assist you", "Tell me your problem to assist you", "Yes Sure, How can I support you"]
+    },
+    {"tag": "createaccount",
+    "patterns": ["I need to create a new account", "how to open a new account", "I want to create an account", "can you create an account for me", "how to open a new account"],
+    "responses": ["You can just easily create a new account from our web site", "Just go to our web site and follow the guidelines to create a new account"]
+    },
+    {"tag": "complaint",
+    "patterns": ["have a complaint", "I want to raise a complaint", "there is a complaint about a service"],
+    "responses": ["Please provide us your complaint in order to assist you", "Please mention your complaint, we will reach you and sorry for any inconvenience caused"]
+    },
+    {"tag": "institution",
+    "patterns": ["virtual university is private or government", " Is the Virtual University a private or Government institution?", "VU is private or Government?"],
+    "responses": ["Virtual University of Pakistan (VU) is the Pakistan's first University based completely on modern Information and Communication Technologies (ICTs) working under the Federal Ministry of Information Technology & Telecom (MoITT),Government of Pakistan to provide extremely affordable world class education to aspiring students all over the country as well as overseas."]
+    },
+    {"tag": "admission",
+    "patterns": ["how can i apply for admission?","how to get admission in vu"],
+    "responses": ["The admissions at Virtual University open in Fall and Spring semesters i.e., two times a year. You can apply ONLINE for admission by logging in at VU website (http://www.vu.edu.pk/Apply/Login.aspx). Further, you can get all necessary information from any of the Virtual University Campuses/Study centers. You can fill the online admission application form and upload all required scanned documents through given link which is available at the VU website during the admission days."]
+    },
+    {"tag":"contactadmissiondepartment",
+        "patterns":["contact vu admissions department","how can i contact with admissions department","how to contact with admission department"],
+        "responses":["All candidates, regardless of their location may contact the officials of the University via \"Contact Us\" page available at (https://www.vu.edu.pk/Contact.aspx). Likewise, VU has developed a Support System to facilitate its students. You may enquire through VU Support System through the link at (https://www.vu.edu.pk/SupportSystem). You may also contact the admissions department via email (admissions@vu.edu.pk)."]
+    },
+    {"tag":"standardsofeducation",
+        "patterns":["Does the University have different standards of education","standards of education for various provinces?","standard of education  in vu"],
+        "responses":["Absolutely not. The Virtual University provides uniform education to all its students regardless of their geographical locations. All Virtual University students, regardless of whether they live in large cities or small towns or even remote areas are taught by the same Professors and receive the same study materials. Even examinations are identical throughout the country."]
+    },
+    {"tag":"uniformeducation",
+        "patterns":["How is uniform education possible all over the country?","uniform education"],
+        "responses":["The Virtual University uses free-to-air television for broadcasting its lectures and interaction between students and teachers happens over the Internet. Lectures are also available on YouTube and DVDs at a very nominal cost. Examinations are conducted in a formal proctored environment at campuses\/centres allocated for the purpose by the University. The Virtual University operates its own four television channels (VTV1, VTV2, VTV3 & VTV4). Students listen to the lectures in classroom environment at virtual campuses/study centers spread all over the country. The students are provided free Internet facility at these campuses to interact with the teachers."]
+    },
+    {"tag":"professors",
+        "patterns":["Who are the Professors at Virtual University of Pakistan?","professors of vu"],
+        "responses":["The Virtual University utilizes the services of the very best Professors that the country has to offer. They belong to the best universities and other institutions of the country and are acknowledged masters of their subjects. Most of the Professors hold PhD degrees and even several Vice-Chancellors of major national universities have taught courses at the Virtual University of Pakistan."]
+    },
+    {"tag":"expensiveeducation",
+        "patterns":["VU education must be very expensive!","is  vu education is expensive?"],
+        "responses":["You will be surprised at the affordability of Virtual University programs. Despite the provision of world-class facilities and education, the cost of a BS program is only Rs. 750\/- per credit hour. The fee for the Diploma program, Masters programs isonly Rs. 1150\/- per credit hour. The fee for the MS program in different disciplines is Rs. 2,100\/- per credit hour."]
+    },
+    {"tag":"wheretostudy",
+        "patterns":["where do i study?","where to study?"],
+        "responses":["If you are a full-time student then you should preferably join any one of the more than 210 campuses of the Virtual University. These are located in over 100 cities of the country and the list is available on the VU web-site (http://www.vu.edu.pk/PVCs/Default.aspx). By studying at any of these campuses you will be able to interact with your class-fellows and also avail free computer and Internet facilities which are required for student-teacher interaction. However, if you are a working professional or it is difficult for you to attend classes at a campus, then you can study from home. In this case you will need a cable television and/or a computer/laptop or at least an Android phone with Internet connectivity."]
+    },
+    {"tag":"howtostudy",
+        "patterns":["how do i study?","how to study?"],
+        "responses":["You attend lectures as per the declared timetable through Virtual University's television network which operates four channels VTV1, VTV2, VTV3 and VTV4. The lecture schedule is always available on the VU web-site. In case you miss any lecture, all Virtual University courses are also available on YouTube and DVDs at a very nominal cost. In addition to the prescribed text books, extensive reading material is made available over the Internet through the University's Learning Management System (LMS)."]
+    },
+    {"tag":"askquestionfromteacher",
+        "patterns":["What if I need to ask a question from my teachers?","how to ask questions from teachers?"],
+        "responses":["You can ask questions at any time over the Internet using the Virtual University's comprehensive Learning Management System (http://vulms.vu.edu.pk). No other University of the country offers such a facility."]
+    },
+    {"tag":"appearforexam",
+        "patterns":["how do i appear for my exam?","how to give exams?"],
+        "responses":["The Virtual University establishes examination centres throughout the country. Examinations are conducted under the supervision of examiners who ensure the sanctity of the process."]
+    },
+    {"tag":"recognizeddegree",
+        "patterns":["Is vu degree recognized?"],
+        "responses":["The Virtual University has been established by the Government of Pakistan. As such, its degrees are recognized by the Higher Education Commission, Islamabad. Please visit the HEC web-site (https://www.hec.gov.pk/english/universities/pages/recognised.aspx)"]
+    },
+    {"tag":"lecturehandoutsanddvd",
+        "patterns":["From where can I obtain the lecture handouts and DVDs?","lecture handouts","lectuer handouts and DVD's?"],
+        "responses":["Lecture Handouts and DVDs are easily available through the Virtual University's online bookshop (http://bookshop.vu.edu.pk). Availability of handouts and DVDs is not limited to VU students only; students and faculty from other Universities as well as the public at large can benefit from these courses and associated material."]
+    },
+    {"tag":"operatecomputer",
+        "patterns":["Can Virtual University help me learn how to operate a computer?","how to operate a computer?"],
+        "responses":["Definitely. You do not need to go to any computer centre\/Campus\/study centre to learn the basics of computers. The Virtual University has developed a very exciting and comprehensive set of interactive DVDs that will lead anybody through the basic IT learning process. No teacher is necessary and all instructions on these DVDs are delivered in Urdu, thereby making them extremely easy to understand and follow for all age groups."]
+    },
+    {"tag":"comparablecourses",
+        "patterns":["Are the courses offered by VU comparable to international standards?","standard of VU courses"],
+        "responses":["Yes. Virtual University programs are based on curricula developed by the Higher Education Commission (HEC). The course outlines used in these curricula are based on international demands and standards."]
+    },
+    {"tag":"continueeducationaftercompletingdefree",
+        "patterns":["Will I be able to continue my education in any other University after obtaining a degree from VU?","can i continue my education after completing degree from VU?"],
+        "responses":["Definitely. In fact, VU graduates are already pursuing their MS and higher studies at top Universities both within Pakistan as well as abroad"]
+    },
+    {"tag":"concerncertificate",
+        "patterns":["How can I get a \"To whom it may Concern\" certificate?","how to  get concern certificate"],
+        "responses":["The office of the Registrar facilitates its students to get a certificate which shows their current status of study at VU, upon payment of prescribed fee."]
+    },
+    {"tag":"migrationcertificate",
+        "patterns":["How can I get Migration Certificate/No Objection Certificate?","how do i get NOC?","how to get migration certificate"],
+        "responses":["The students of Virtual University can get Migration certificate\/NOC within a short time upon payment of the prescribed fee."]
+    },
+    {"tag":"coursesyllabus",
+        "patterns":["How can I get Course Contents\/Syllabus of a Study/Degree program","how to get course content","how to get course syllabus"],
+        "responses":["You can get the signed hard copy of Course Contents\/Syllabus of your study program from office of the Registrar upon payment of prescribed fee within a short time. Further you can get the soft copies of the Course Contents\/Syllabus at VU website (http://www.vu.edu.pk/AcademicPrograms/CoursesCatalogue.aspx)"]
+    },
+    {"tag":"studentstatusupdation",
+        "patterns":["How can I get my student status changed(Overseas to Pakistan)?","How can I get my student status changed","student status","overseas to pakistan","pakistan to overseas"],
+        "responses":["You may get your status changed by emailing at (overseas@vu.edu.pk) or using the VU Support System."]
+    },
+    {"tag":"campuschange",
+        "patterns":["How can I get my Campus changed?","how to change campus"],
+        "responses":["You can get your campus changed by emailing at (campuschange@vu.edu.pk) or using the VU Support System."]
+    },
+    {"tag":"addordropcourses",
+        "patterns":["How can I do my Course Selection/to Add or Drop course(s)?","how to do course selection?","add or drop courses"],
+        "responses":["You may select your courses by following the steps as mentioned in https://handbook.vu.edu.pk> Course selection or emailing at (course_selection@vu.edu.pk) to add or drop course (s)."]
+    },
+    {"tag":"freezeaccount",
+        "patterns":["How can I Freeze\/Unfreeze my Semester?","freeze account","unfreeze account"],
+        "responses":["You can freeze\/unfreeze your semester by following the steps as mentioned in https://handbook.vu.edu.pk>Registrar office > Semester Freeze or https://handbook.vu.edu.pk> Registrar office > Semester UnFreeze or emailing at (semesterfreeze@vu.edu.pk or semesterunfreeze@vu.edu.pk) to get your semester Freeze or Unfreeze."]
+    },
+    {"tag":"duplicateid",
+        "patterns":["How can I get a Duplicate ID card?","duplicate id card"],
+        "responses":["You can get a duplicate ID card by emailing at (idcard@vu.edu.pk) or using the VU Support System."]
+    }
+]
+}
